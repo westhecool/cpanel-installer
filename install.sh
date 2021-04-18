@@ -19,5 +19,4 @@ echo "installing nano"
 yum install nano -y
 echo "runing: 'yum update'"
 yum update
-echo "runing: 'cd /home && curl -o latest -L https://securedownloads.cpanel.net/latest && sh latest'"
-cd /home && curl -o latest -L https://securedownloads.cpanel.net/latest && sh latest
+echo "now run: 'cd /home && curl -o latest -L https://securedownloads.cpanel.net/latest && sh latest'"
