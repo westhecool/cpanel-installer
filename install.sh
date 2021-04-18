@@ -1,4 +1,4 @@
-echo "disable OS firewall"
+echo "disableing OS firewall"
 iptables-save > ~/firewall.rules
 systemctl stop firewalld.service
 systemctl disable firewalld.service
