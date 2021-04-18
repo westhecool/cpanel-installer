@@ -8,6 +8,7 @@ echo -e "# This file controls the state of SELinux on the system.\n# SELINUX= ca
 echo "disableing the Network Manager service"
 systemctl stop NetworkManager
 systemctl disable NetworkManager
+echo "configuring network interfaces 'io' and '$1'"
 echo -e "\nNM_CONTROLLED=no" > /etc/sysconfig/network-scripts/ifcfg-io
 echo -e "\nNM_CONTROLLED=no" > /etc/sysconfig/network-scripts/ifcfg-$1
 systemctl enable network.service
