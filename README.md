@@ -1,4 +1,4 @@
-# cpanel installer for CentOS 7 or 8, CloudLinux 7, or RHEL 7:
+# cpanel installer for CentOS, CloudLinux, or RHEL:
 
 run "ip a" to get your network interface that's not "io"
 note that value
